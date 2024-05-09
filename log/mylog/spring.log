@@ -1,0 +1,42 @@
+2024-05-09 06:40:07.321  INFO 12552 --- [main] c.e.s.SpringbootReadWebApplicationTests  : Starting SpringbootReadWebApplicationTests using Java 1.8.0_201 on DESKTOP-2U7EKJB with PID 12552 (started by wang in D:\IntelliJ_IDEA\springbootReadWeb)
+2024-05-09 06:40:07.352  INFO 12552 --- [main] c.e.s.SpringbootReadWebApplicationTests  : No active profile set, falling back to default profiles: default
+2024-05-09 06:40:09.945  INFO 12552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-05-09 06:40:09.951  INFO 12552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-09 06:40:10.014  INFO 12552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 0 Redis repository interfaces.
+2024-05-09 06:40:25.706  INFO 12552 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-05-09 06:40:30.557  INFO 12552 --- [main] c.e.s.SpringbootReadWebApplicationTests  : Started SpringbootReadWebApplicationTests in 26.258 seconds (JVM running for 31.81)
+2024-05-09 06:40:32.480  INFO 12552 --- [main] c.e.springbootreadweb.log.LogAspect      : before method run
+2024-05-09 06:40:32.822  INFO 12552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09 06:40:37.320  INFO 12552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09 06:40:37.647  INFO 12552 --- [main] c.e.springbootreadweb.log.LogAspect      : after method run,class com.example.springbootreadweb.service.impl.BookShelfServiceImpl,args=[1, 1787637821658415106],method=boolean com.example.springbootreadweb.service.impl.BookShelfServiceImpl.addToShelf(long,long)
+2024-05-09 06:40:37.987  INFO 12552 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09 06:40:38.070  INFO 12552 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09 06:42:15.887  INFO 17360 --- [main] c.e.s.SpringbootReadWebApplicationTests  : Starting SpringbootReadWebApplicationTests using Java 1.8.0_201 on DESKTOP-2U7EKJB with PID 17360 (started by wang in D:\IntelliJ_IDEA\springbootReadWeb)
+2024-05-09 06:42:15.894  INFO 17360 --- [main] c.e.s.SpringbootReadWebApplicationTests  : No active profile set, falling back to default profiles: default
+2024-05-09 06:42:18.466  INFO 17360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-05-09 06:42:18.474  INFO 17360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-09 06:42:18.565  INFO 17360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 0 Redis repository interfaces.
+2024-05-09 06:42:36.845  INFO 17360 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-05-09 06:42:41.612  INFO 17360 --- [main] c.e.s.SpringbootReadWebApplicationTests  : Started SpringbootReadWebApplicationTests in 27.538 seconds (JVM running for 31.189)
+2024-05-09 06:42:43.041  INFO 17360 --- [main] c.e.springbootreadweb.log.LogAspect      : before method run
+2024-05-09 06:42:43.381  INFO 17360 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09 06:42:46.215  INFO 17360 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09 06:42:46.450  INFO 17360 --- [main] c.e.springbootreadweb.log.LogAspect      : after method run,class com.example.springbootreadweb.service.impl.BookShelfServiceImpl,args=[1, 1787637821658415106],method=boolean com.example.springbootreadweb.service.impl.BookShelfServiceImpl.removeFromShelf(long,long)
+2024-05-09 06:42:46.650  INFO 17360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09 06:42:46.782  INFO 17360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09 18:40:09.939  INFO 644 --- [main] c.e.s.SpringbootReadWebApplication       : Starting SpringbootReadWebApplication using Java 1.8.0_201 on DESKTOP-2U7EKJB with PID 644 (D:\IntelliJ_IDEA\springbootReadWeb\target\classes started by wang in D:\IntelliJ_IDEA\springbootReadWeb)
+2024-05-09 18:40:09.944  INFO 644 --- [main] c.e.s.SpringbootReadWebApplication       : No active profile set, falling back to default profiles: default
+2024-05-09 18:40:11.080  INFO 644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-05-09 18:40:11.083  INFO 644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-09 18:40:11.126  INFO 644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2024-05-09 18:40:12.517  INFO 644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-09 18:40:12.534  INFO 644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09 18:40:12.534  INFO 644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2024-05-09 18:40:12.747  INFO 644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09 18:40:12.748  INFO 644 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2659 ms
+2024-05-09 18:40:15.244  INFO 644 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-05-09 18:40:15.854  INFO 644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-09 18:40:15.866  INFO 644 --- [main] c.e.s.SpringbootReadWebApplication       : Started SpringbootReadWebApplication in 6.912 seconds (JVM running for 8.757)
+2024-05-09 18:40:50.444  INFO 644 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09 18:40:50.444  INFO 644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-09 18:40:50.448  INFO 644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms

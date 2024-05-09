@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springbootreadweb.mapper.UserMapper">
+
+    <select id="selectGroup" resultType="com.example.springbootreadweb.entity.vo.GroupBean">
+        SELECT COUNT(`name`) as cnt, age
+        FROM USER
+        GROUP BY age;
+    </select>
+
+    <select id="selectByName" resultType="com.example.springbootreadweb.entity.User">
+        --         SELECT * FROM USER where `name` = ${name};
+        SELECT *
+        FROM USER
+        where `name` = #{name,jdbcType=VARCHAR};
+    </select>
+
+    <!--    SELECT * FROM USER where `name` = dmc; -->
+    <!--    SELECT * FROM USER where `name` = 'dmc'; -->
+</mapper>
